@@ -9,8 +9,8 @@ This project was intended to help us learn the basics of React including:
  In this case, my result should look just like the comp.  And it does.
  
  ### Comp
- ![Screenshot - Comp](/public/screenshot-comp.png)
- 
+ ![Screenshot](public/screenshot-comp.png)
+
  ### Result
- ![Screenshot - Result](/public/screenshot-result.png)
+ ![Screenshot](public/screenshot-result.png)
  
