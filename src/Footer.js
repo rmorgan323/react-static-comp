@@ -1,8 +1,15 @@
 import React from 'react';
 import './Footer.css';
 
+let date = new Date();
+let currentYear = date.getFullYear();
+
 const Footer = () => {
-  // WHAT GOES HERE?
+	return (
+		<div className='Footer'>
+			<a>&copy; {currentYear}</a>
+		</div>
+	)
 }
 
 export default Footer;

@@ -12,11 +12,15 @@
 }
 
 .story-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   text-align: left;
   padding: 15px;
+}
+
+.story-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
 }
 
 .story-info h3 {
@@ -28,4 +32,25 @@
   font-weight: lighter;
   line-height: 150%;
   margin: 0;
+}
+
+@media screen and (max-width: 1099px) {
+  .Story {
+    min-width: none;
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Story {
+    height: initial;
+    flex-direction: column;
+  }
+  .Story img {
+    margin: auto;
+  }
+
+
+
 }
