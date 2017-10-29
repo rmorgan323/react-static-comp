@@ -13,4 +13,4 @@ This project was intended to help us learn the basics of React including:
 
  ### Result
  ![Screenshot](public/screenshot-result.png)
- 
+
