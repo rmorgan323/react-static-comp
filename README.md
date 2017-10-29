@@ -1,4 +1,3 @@
-
 # React Static Comp
 
 This project was intended to help us learn the basics of React including:
