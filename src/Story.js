@@ -13,12 +13,6 @@ const Story = (props) => {
           <p>{props.story.desc}</p>
           <Author story={props.story} />
         </div>
-
-
-
-
-        {/* create an Author component and add it here */}
-        {/* it will need properties of the author image, name, and the estimated reading time of the story */}
       </div>
     </div>
   )
